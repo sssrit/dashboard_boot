@@ -1,0 +1,9 @@
+<div class="d-flex flex-column incombox_card_container mb-4">
+    
+    <div class="d-flex p-2 justify-content-between">
+        <b><ng-content select="[card_header]"></ng-content></b>
+    <mat-icon><ng-content select="[card_icon]"></ng-content></mat-icon>
+    </div>
+    <div class="d-flex flex-column p-2 py-0 justify-content-center" ><ng-content select="[percent]"></ng-content></div>
+    <div class="d-flex p-2"> <ng-content></ng-content></div>
+</div>

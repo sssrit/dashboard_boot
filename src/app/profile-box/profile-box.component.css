@@ -1,0 +1,20 @@
+.profile_container{
+    width:100%;
+    background: #fff;
+    display: block;
+}
+.user-profile-image{
+    border-radius: 50%;
+    width:100px;
+    height: 100px;
+}
+.profile-text{
+    font-size: 0.8rem;
+}
+
+.role{
+    font-size: 1rem;
+}
+.name{
+    font-size: 1.2rem;
+}

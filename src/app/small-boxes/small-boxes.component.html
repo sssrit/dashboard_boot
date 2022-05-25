@@ -1,0 +1,9 @@
+<div class="d-flex mb-4 small-box">
+    <div class="p-2 text-center align-items-center d-flex justify-content-center icon_box_email">
+        <mat-icon><ng-content select="[icon_name]"></ng-content></mat-icon>
+    </div>
+    <div class="d-flex flex-column p-2 justify-content-center">
+           <ng-content select="[count]"></ng-content>
+        <ng-content select="[desc_text]"></ng-content>
+    </div>
+</div>

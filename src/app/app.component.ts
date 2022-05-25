@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'dashboard_boot';
+  sideBarOpen = true;
+
+  sideBarToggeler()
+  {
+    this.sideBarOpen =!this.sideBarOpen;
+  }
+  ngOnInit(){}
 }

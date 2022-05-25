@@ -1,0 +1,13 @@
+.incombox_card_container{
+    width:100%;
+    background-color: #fff;
+}
+
+.cost_text{
+    color:#ff0066;
+    font-size: 1.2rem;;
+}
+
+.incom_text{
+    font-size: .8rem;
+}

@@ -1,0 +1,35 @@
+.email-box{
+    background-color: #673ab7;
+    color:#ffffff;
+}
+.icon_box_email{
+    background-color: #0000003b;
+    flex: 1 0 auto;
+    max-width: 60px;
+}
+.image-box{
+    background-color: #039be5;
+    color:#ffffff;
+
+}
+.message-box{
+    background-color: #8bc34a;
+    color:#ffffff;
+
+}
+.post-box{
+    background-color: #ab47bc;
+    color:#ffffff;
+
+}
+
+._box_content{  
+        margin-left: 10px;
+        color: #ffffff !important;
+}
+
+.dashboard_footer{
+    width:100%;
+    background: #fff;
+ font-size: 0.8rem;
+}
