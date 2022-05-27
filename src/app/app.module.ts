@@ -33,8 +33,10 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { fas } from '@fortawesome/free-solid-svg-icons';
 import { far } from '@fortawesome/free-regular-svg-icons';
 import { fab } from '@fortawesome/free-brands-svg-icons';
-import { ChartThreeComponent } from './chart-three/chart-three.component'; 
-
+import { ChartThreeComponent } from './chart-three/chart-three.component';
+import { UsersComponent } from './users/users.component';
+import { UserDetailsComponent } from './user-details/user-details.component'; 
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -51,7 +53,9 @@ import { ChartThreeComponent } from './chart-three/chart-three.component';
     ChartTwoComponent,
     ProfileBoxComponent,
     ProfileQuickLinksComponent,
-    ChartThreeComponent
+    ChartThreeComponent,
+    UsersComponent,
+    UserDetailsComponent
     
   ],
   imports: [
@@ -70,7 +74,9 @@ import { ChartThreeComponent } from './chart-three/chart-three.component';
     MatTableModule,
     MatButtonModule,
     NgChartsModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+
+    HttpClientModule
     
   ],
   providers: [],
